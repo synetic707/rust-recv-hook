@@ -1,0 +1,14 @@
+[package]
+name = "rust-recv-hook"
+version = "0.1.0"
+authors = ["synetic707"]
+
+[lib]
+crate-type = ["dylib"]
+
+[dependencies]
+gcc = "0.3"
+winapi = "0.2.8"
+user32-sys = "0.1"
+kernel32-sys = "0.2.2"
+ws2_32-sys = "0.2.1"
